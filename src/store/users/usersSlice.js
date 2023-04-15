@@ -20,7 +20,7 @@ const initialState = {
 const userSlice = createSlice({
     name: 'users',
     initialState,
-    extraReducers:{},
+    // extraReducers:{},
     extraReducers: (builder) => {
         builder
         .addCase(fetchData.pending, (state) => {

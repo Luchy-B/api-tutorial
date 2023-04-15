@@ -20,12 +20,12 @@ if(error) {
 
 return (
     <div>
-      {users.map((user)=>{
+      {users.map((user) => (
         <div className='container' key={user}>
           <h2>{user.first}</h2>
           <h2>{user.last}</h2>
         </div>
-      })}
+      ))}
     </div>
   )
 }
